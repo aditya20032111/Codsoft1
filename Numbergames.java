@@ -12,7 +12,7 @@ public class Numbergames{
         System.out.println("Welcome to the Number Guessing Game!");
 
         while (playAgain) {
-            int targetNumber = random.nextInt(100) + 1; 
+            int targetNumber = random.nextInt(15) + 1; 
             int attemptsLeft = maxAttempts;
             boolean guessedCorrectly = false;
 
